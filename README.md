@@ -2,8 +2,6 @@
 You can ingest documents and ask questions without an internet connection (offline), using the power of LLMs. 
 This is 100% secure and free (no cost & no data leaves your execution environment at any point).
 
-![image](https://github.com/SoumyadeepDebnath/chatWithFiles/assets/22044000/49b8eb45-d703-4be4-88d4-d63b902130a8)
-
 Built with [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https://github.com/nomic-ai/gpt4all), [LlamaCpp](https://github.com/ggerganov/llama.cpp), [Chroma](https://www.trychroma.com/) and [SentenceTransformers](https://www.sbert.net/).
 
 # Environment Setup
@@ -41,6 +39,9 @@ Note: because of the way `langchain` loads the `SentenceTransformers` embeddings
 
 ## Test dataset
 This repo uses a [Industrial_Pharmaceutical_Documentation](https://github.com/SoumyadeepDebnath/chatWithFiles/blob/main/source_documents/Industrial_Pharmaceutical_Documentation.pdf) as an example.
+
+#### Sample Output
+![image](https://github.com/SoumyadeepDebnath/chatWithFiles/assets/22044000/49b8eb45-d703-4be4-88d4-d63b902130a8)
 
 ## Instructions for ingesting your own dataset
 
