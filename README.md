@@ -101,7 +101,7 @@ And wait for the script to require your input.
 > Enter a query:
 ```
 
-Hit enter. You'll need to wait 20-30 seconds (depending on your machine) while the LLM model consumes the prompt and prepares the answer. Once done, it will print the answer and the 4 sources it used as context from your documents; you can then ask another question without re-running the script, just wait for the prompt again.
+Hit enter. You'll need to wait 10-500 seconds (depending on your machine performance) while the LLM model consumes the prompt and prepares the answer. Once done, it will print the answer and the 4 sources it used as context from your documents; you can then ask another question without re-running the script, just wait for the prompt again.
 
 Note: you could turn off your internet connection, and the script inference would still work. No data gets out of your local environment.
 
@@ -143,4 +143,4 @@ When running a Mac with Intel hardware (not M1), you may run into _clang: error:
 If so set your archflags during pip install. eg: _ARCHFLAGS="-arch x86_64" pip3 install -r requirements.txt_
 
 # Disclaimer
-This is a test project to validate the feasibility of a fully secure solution for question answering using LLMs and Vector embeddings. It is not production ready, and it is not meant to be used in production. The models selection is not optimized for performance, but for privacy; but it is possible to use different models and vectorstores to improve performance.
+This is a PoC/MVP project to validate the feasibility of a fully secure, free & no-internet solution for question-answering using LLMs and Vector embeddings. As of now we are not recommending this as production ready. Till now models selection is not highly optimized for performance, but for security and cost. And here we have possibility to use different models and vectorstores to improve performance.
