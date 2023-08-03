@@ -3,6 +3,8 @@ You can ingest documents and ask questions without an internet connection (offli
 This is 100% secure and free (no cost & no data leaves your execution environment at any point).
 
 Built with [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https://github.com/nomic-ai/gpt4all), [LlamaCpp](https://github.com/ggerganov/llama.cpp), [Chroma](https://www.trychroma.com/) and [SentenceTransformers](https://www.sbert.net/).
+## Architecture
+<img width="603" alt="Architecture" src="https://github.com/SoumyadeepDebnath/chatWithFiles/assets/22044000/2355cfb2-8928-4167-a761-c1664b2f0202">
 
 # Environment Setup
 In order to set your environment up to run the code here, first install all requirements:
